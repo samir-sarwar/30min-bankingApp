@@ -3,6 +3,7 @@ import { ArrowUpRight, ArrowDownLeft, Wallet } from 'lucide-react';
 import Card from '../components/Card';
 import { ACCOUNTS, TRANSACTIONS } from '../data/mockData';
 import AnimatedPage from '../components/AnimatedPage';
+import cardImage from '../assets/card.png';
 
 const Dashboard = () => {
     const totalBalance = ACCOUNTS.reduce((acc, curr) => acc + curr.balance, 0);
@@ -104,7 +105,7 @@ const Dashboard = () => {
                                     {/* Glow behind card image */}
                                     <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 blur-2xl opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>
                                     <img
-                                        src="/src/assets/card.png"
+                                        src={cardImage}
                                         alt="Credit Card"
                                         className="relative w-full h-64 object-cover object-center rounded-t-xl transition-all duration-500 group-hover:scale-[1.03] group-hover:brightness-110"
                                     />
@@ -171,7 +172,7 @@ const Dashboard = () => {
                                     {/* Glow behind card image */}
                                     <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/8 blur-2xl opacity-0 group-hover:opacity-25 transition-opacity duration-500"></div>
                                     <img
-                                        src="/src/assets/card.png"
+                                        src={cardImage}
                                         alt="Credit Card"
                                         className="relative w-full h-64 object-cover object-center rounded-t-xl transition-all duration-500 group-hover:scale-[1.03] group-hover:brightness-110"
                                     />
