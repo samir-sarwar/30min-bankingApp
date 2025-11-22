@@ -13,7 +13,7 @@ const Dashboard = () => {
                 {/* Header */}
                 <div className="flex justify-between items-end">
                     <div>
-                        <h1 className="text-4xl font-bold text-white mb-2">Hi, Alex</h1>
+                        <h1 className="text-4xl font-bold text-white mb-2">Hi, Audrey</h1>
                         <p className="text-zinc-400">Welcome back to your premium banking dashboard.</p>
                     </div>
                     <div className="text-right relative">

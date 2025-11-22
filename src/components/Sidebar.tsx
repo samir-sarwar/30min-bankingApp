@@ -15,7 +15,7 @@ const Sidebar = () => {
         <aside className="w-64 h-screen bg-zinc-950/80 backdrop-blur-xl border-r border-white/10 flex flex-col fixed left-0 top-0 z-50">
             <div className="p-6 border-b border-white/10">
                 <h1 className="text-2xl font-bold text-white tracking-tight">
-                    Jeeves<span className="text-gold">.</span>
+                    Beeves<span className="text-gold">.</span>
                 </h1>
             </div>
 

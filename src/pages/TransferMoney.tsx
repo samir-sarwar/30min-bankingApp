@@ -30,7 +30,7 @@ const TransferMoney = () => {
     };
 
     const recentTransfers = [
-        { id: 1, name: 'Alex Johnson', date: 'Oct 24', amount: 120.00, avatar: 'AJ' },
+        { id: 1, name: 'Audrey Johnson', date: 'Oct 24', amount: 120.00, avatar: 'AJ' },
         { id: 2, name: 'Sarah Smith', date: 'Oct 20', amount: 50.00, avatar: 'SS' },
         { id: 3, name: 'Mike Brown', date: 'Oct 15', amount: 1250.00, avatar: 'MB' },
         { id: 4, name: 'Emma Wilson', date: 'Oct 12', amount: 35.00, avatar: 'EW' },
